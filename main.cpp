@@ -6,7 +6,13 @@
 int main(int argc, char** argv){
     char* str = (char*)malloc(sizeof(char) * SIZE);
     printf("Введите своё имя: \n");
+<<<<<<< HEAD
     scanf("%s", str);
     printf("Привет, %s", str);
+=======
+    str = gets(str);
+    puts("Привет");
+    puts(str);
+>>>>>>> main
     return 0;
 }
